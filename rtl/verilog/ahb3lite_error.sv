@@ -63,9 +63,9 @@
 // -FHDR-------------------------------------------------------------
 
 
+module ahb3lite_error
 import ahb3lite_pkg::*;
-
-module ahb3lite_error #(
+#(
   parameter HDATA_SIZE = 32
 )
 (
